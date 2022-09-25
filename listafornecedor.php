@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Lista de clientes</title>
+    <title>Lista de Fornecedores</title>
 </head>
 
 <body>
@@ -79,11 +79,11 @@
                                 <div class="mb-3">
                                     <label for="nome" class="form-label">Nome <span class="text-danger"> * </span>
                                     </label>
-                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome!" required>
+                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite o nome do fornecedor" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="cnpj" class="form-label">CNPJ <span class="text-danger"> * </span></label>
-                                    <input type="text" class="form-control" id="cnpj" name="cnpj" placeholder="Digite seu CNPJ!"required>
+                                    <input type="text" class="form-control" id="cnpj" name="cnpj" placeholder="Digite o CNPJ"required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="contato" class="form-label">Contato</label>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Lista de clientes</title>
+    <title>Lista de Usuários</title>
 </head>
 
 <body>
@@ -82,16 +82,16 @@
                                 <div class="mb-3">
                                     <label for="nome" class="form-label">Nome <span class="text-danger"> * </span>
                                     </label>
-                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome!" required>
+                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="sobrenome" class="form-label">Sobrenome <span class="text-danger"> *
                                         </span> </label>
-                                    <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Digite seu sobre nome!" required>
+                                    <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="cpf" class="form-label">Cpf</label>
-                                    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite seu CPF!">
+                                    <label for="cpf" class="form-label">CPF</label>
+                                    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite seu CPF">
                                 </div>
                                 <div class="mb-3">
                                     <label for="genero" class="form-label">Gênero</label>
